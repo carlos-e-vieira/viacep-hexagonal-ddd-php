@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace App\Address\Infrastructure\Adapter;
 
 use App\Address\Domain\Entity\Address;
-use Exception;
 
 class ViaCepAdapter
 {
@@ -15,7 +14,7 @@ class ViaCepAdapter
         $xml = simplexml_load_file($url);
 
         if ($xml === false) {
-            throw new Exception("Não foi possível carregar o XML da API ViaCEP.");
+            throw new \Exception("Não foi possível carregar o XML da API ViaCEP.");
         }
 
         return new Address(

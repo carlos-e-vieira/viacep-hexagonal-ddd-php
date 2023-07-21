@@ -26,23 +26,28 @@ class Address
         $this->zipCode = $zipCode;
     }
 
-    public function getStreet() {
+    public function getStreet(): string
+    {
         return $this->street;
     }
 
-    public function getNeighborhood() {
+    public function getNeighborhood(): string
+    {
         return $this->neighborhood;
     }
 
-    public function getCity() {
+    public function getCity(): string
+    {
         return $this->city;
     }
 
-    public function getState() {
+    public function getState(): string
+    {
         return $this->state;
     }
 
-    public function getZipCode() {
+    public function getZipCode(): string
+    {
         return $this->zipCode;
     }
 
