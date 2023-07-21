@@ -1,0 +1,17 @@
+{
+    "name": "carlos/teste-hexagonal-ddd",
+    "type": "project",
+    "license": "n",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carlos Vieira",
+            "email": "carlosportalsocial@gmail.com"
+        }
+    ],
+    "require": {}
+}
